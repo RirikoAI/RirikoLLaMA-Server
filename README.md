@@ -10,6 +10,9 @@ You will need:
 2) For GPU + CPU inference: At least 6GB of GPU vRAM + 10GB of RAM
 3) GPU only inference: At least 16GB of GPU vRAM
 
+Inferencing speed: Speed varies depending on your GPU and RAM speed. I'm running the server with
+Ryzen 9 5900X, 32GB of RAM and an RTX 2060, and I'm generating about 3 new tokens per second.
+
 ### 1. Install Python 3.11 in your PC:
 https://www.python.org/downloads/release/python-3110/ (Install it to C:\Python311)
 

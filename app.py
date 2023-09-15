@@ -1,3 +1,5 @@
+version = "1.0"
+
 # HuggingFace and OpenLLaMA
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM
@@ -16,7 +18,7 @@ import re
 model_path = "openlm-research/open_llama_3b_v2"
 # model_path = "openlm-research/open_llama_7b_v2"
 
-print('Starting RirikoLLaMA Local Server.')
+print('Starting RirikoLLaMA Local Server, version ' + version)
 print('Loading ' + model_path + ' into GPU and RAM...')
 
 # v1 models
