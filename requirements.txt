@@ -1,0 +1,8 @@
+# API
+torch
+flask
+
+# HuggingFace and OpenLLaMA
+sentencepiece
+transformers
+accelerate
