@@ -18,13 +18,13 @@ import re
 model_path = "openlm-research/open_llama_3b_v2"
 # model_path = "openlm-research/open_llama_7b_v2"
 
-print('Starting RirikoLLaMA Local Server, version ' + version)
-print('Loading ' + model_path + ' into GPU and RAM...')
-
 # v1 models
 # model_path = "openlm-research/open_llama_3b"
 # model_path = "openlm-research/open_llama_7b"
 # model_path = "openlm-research/open_llama_13b"
+
+print('Starting RirikoLLaMA Local Server, version ' + version)
+print('Loading ' + model_path + ' into GPU and RAM...')
 
 # Create request queue and processing lock
 request_queue = queue.Queue()

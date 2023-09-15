@@ -5,13 +5,14 @@ Introducing Ririko LLaMA, now you can run your own "ChatGPT" at home! (With Open
 |----------------------------------------------------------------------------------------------------------------------------------|
 
 ## To run the server in your computer
-You will need:
+To run the `open_llama_3b_v2` (3 billion parameters) model, you will need:
 1) For CPU only inference: At least 16GB of RAM
-2) For GPU + CPU inference: At least 6GB of GPU vRAM + 10GB of RAM
-3) GPU only inference: At least 16GB of GPU vRAM
+2) For GPU + CPU inference: At least 5GB of GPU vRAM + 10GB of RAM
+3) GPU only inference: At least 12GB of GPU vRAM
 
 Inferencing speed: Speed varies depending on your GPU and RAM speed. I'm running the server with
-Ryzen 9 5900X, 32GB of RAM and an RTX 2060, and I'm generating about 3 new tokens per second.
+Ryzen 9 5900X, 32GB of RAM and an RTX 2060 (using GPU + CPU approach), and I'm generating about 
+3 new tokens per second.
 
 ### 1. Install Python 3.11 in your PC:
 https://www.python.org/downloads/release/python-3110/ (Install it to C:\Python311)
@@ -72,5 +73,5 @@ You'll receive a response like this:
     "raw_response": "This is a chat between a [Human] and [Friend]. The [Friend] is very nice and empathetic. The [Friend] name is Ririko. [Friend] Loves to talk about anime, manga & science.\n\nHuman: Hi Ririko! I'm Angel.\nFriend: Hi, Angel.\nHuman: Tell me about yourself.\nFriend: 20 year old, Female. Loves to talk about anime, manga & science.\nHuman: What is the best thing you'"
 }
 ```
-Basically you will keep appending the `answer` into your prompt and ask it to generate new responses
+So, you will keep appending the `answer` into your prompt and ask it to generate new responses
 and essentially having a "conversation".
