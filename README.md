@@ -32,7 +32,7 @@ same directory where your Python installation is)
 ```pip install -r requirements.txt```
 
 ### 5. Run the LLaMA server
-```flask run```
+```flask run --host=0.0.0.0 -p 5000```
 
 The server will now run locally at:  http://127.0.0.1:5000.
 You can send a POST request to `http://localhost:5000/api/v1/ask` API endpoint for your chatbot.
